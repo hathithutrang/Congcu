@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DichBangAmThanh">
+
+    <TextView
+        android:id="@+id/txt_Dictionary"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="DICTIONARY"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/input_kq"
+        android:layout_width="372dp"
+        android:layout_height="318dp"
+        android:layout_marginTop="56dp"
+        android:background="#CCCBCB"
+        android:ems="10"
+        android:gravity="left"
+        android:hint="Kết quả"
+        android:inputType="textMultiLine"
+        android:longClickable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_Dictionary" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="126dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="588dp"
+        android:backgroundTint="#273036"
+        android:text="Quay về"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txt_Dictionary" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="Rất vui khi bạn sử dụng chúng tôi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_Dictionary" />
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="91dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="348dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/input_kq"
+        app:srcCompat="@drawable/micro2" />
+
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="91dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="348dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.837"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/input_kq"
+        app:srcCompat="@drawable/musicfile" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nói vào Mic của bạn"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="542dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đưa File Voice của bạn vào"
+        tools:layout_editor_absoluteX="223dp"
+        tools:layout_editor_absoluteY="542dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

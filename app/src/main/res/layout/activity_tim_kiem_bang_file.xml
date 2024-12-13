@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_tim_kiem_bang_file">
+
+    <TextView
+        android:id="@+id/txt_Dictionary"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="DICTIONARY"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/input_kq"
+        android:layout_width="341dp"
+        android:layout_height="296dp"
+        android:layout_marginTop="36dp"
+        android:background="#CCCBCB"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textMultiLine"
+        android:longClickable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.771"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_Dictionary" />
+
+    <Button
+        android:id="@+id/translate2"
+        android:layout_width="249dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="588dp"
+        android:backgroundTint="#273036"
+        android:text="Tải File lên"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txt_Dictionary" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="28dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="34dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="@+id/input_kq"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/input_kq"
+        app:layout_constraintTop_toTopOf="@+id/input_kq"
+        app:srcCompat="@drawable/arrowd" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="212dp"
+        android:text="Tự phát hiện"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="@+id/input_kq"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="@+id/input_kq"
+        app:layout_constraintTop_toTopOf="@+id/input_kq" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="20dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="173dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="@+id/input_kq"
+        app:layout_constraintStart_toStartOf="@+id/input_kq"
+        app:layout_constraintTop_toTopOf="@+id/input_kq"
+        app:srcCompat="@drawable/next" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="87dp"
+        android:text="Tiếng Việt"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="@+id/input_kq"
+        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintStart_toStartOf="@+id/input_kq"
+        app:layout_constraintTop_toTopOf="@+id/input_kq" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="29dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="350dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="@+id/input_kq"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_Dictionary"
+        app:srcCompat="@drawable/circle" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="53dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="206dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/folder"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/translate2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_kq"
+        app:srcCompat="@drawable/folder" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="52dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="132dp"
+        android:background="@drawable/imagebutton10"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_kq"
+        app:srcCompat="@drawable/global" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="56dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="62dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton13"
+        app:layout_constraintStart_toEndOf="@+id/imageButton11"
+        app:layout_constraintTop_toBottomOf="@+id/input_kq"
+        app:srcCompat="@drawable/search" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="52dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="132dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageButton11"
+        app:layout_constraintTop_toBottomOf="@+id/input_kq"
+        app:srcCompat="@drawable/paste" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="31dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="14dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/textView12"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="@+id/input_kq"
+        app:srcCompat="@drawable/next" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_tim_kiem_bang_tu_vung">
+
+    <TextView
+        android:id="@+id/txt_Dictionary"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="DICTIONARY"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/input_kq"
+        android:layout_width="391dp"
+        android:layout_height="299dp"
+        android:layout_marginTop="128dp"
+        android:background="#CCCBCB"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textMultiLine"
+        android:longClickable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_Dictionary" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="249dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="556dp"
+        android:backgroundTint="#273036"
+        android:text="Quay về"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txt_Dictionary" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="360dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="39dp"
+        android:background="#CCCBCB"
+        android:ems="10"
+        android:hint="Nhập từ cần tìm"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_Dictionary" />
+
+    <ImageButton
+        android:id="@+id/imageButton16"
+        android:layout_width="31dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="314dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="15dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="@+id/editTextText"
+        app:layout_constraintStart_toStartOf="@+id/editTextText"
+        app:layout_constraintTop_toTopOf="@+id/editTextText"
+        app:srcCompat="@drawable/search" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

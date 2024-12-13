@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#131615"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu_App">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/top_background" />
+
+    <Button
+        android:id="@+id/btn_dichtimkiemvahinhanh"
+        android:layout_width="268dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="12dp"
+        android:text="DỊCH NGÔN NGỮ"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/btnlichsu"
+        android:layout_width="268dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="264dp"
+        android:text="TRA LỊCH SỬ"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/btntimkiemtuvung"
+        android:layout_width="268dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="328dp"
+        android:text="TÌM KIẾM TỪ VỰNG"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/btndichbanghinhanh"
+        android:layout_width="268dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="72dp"
+        android:text="DỊCH BẰNG HÌNH ẢNH"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/btntimkiembangfile"
+        android:layout_width="268dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="396dp"
+        android:text="TÌM KIẾM BẰNG FILE"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/btndichbangamthanh"
+        android:layout_width="268dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="136dp"
+        android:text="DỊCH BẰNG ÂM THANH"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/btndichbangfile"
+        android:layout_width="268dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="200dp"
+        android:text="DỊCH BẰNG FILE"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
